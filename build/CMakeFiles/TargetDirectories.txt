@@ -1,0 +1,3 @@
+/home/zerosharp/projects/semestr3/lab5/build/CMakeFiles/lab5.dir
+/home/zerosharp/projects/semestr3/lab5/build/CMakeFiles/edit_cache.dir
+/home/zerosharp/projects/semestr3/lab5/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/zerosharp/projects/semestr3/lab5/build",
+  "command": "/usr/bin/g++  -I/home/zerosharp/projects/semestr3/lab5/include -g -o CMakeFiles/lab5.dir/src/main.cpp.o -c /home/zerosharp/projects/semestr3/lab5/src/main.cpp",
+  "file": "/home/zerosharp/projects/semestr3/lab5/src/main.cpp",
+  "output": "CMakeFiles/lab5.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/zerosharp/projects/semestr3/lab5/build",
+  "command": "/usr/bin/g++  -I/home/zerosharp/projects/semestr3/lab5/include -g -o CMakeFiles/lab5.dir/src/animal.cpp.o -c /home/zerosharp/projects/semestr3/lab5/src/animal.cpp",
+  "file": "/home/zerosharp/projects/semestr3/lab5/src/animal.cpp",
+  "output": "CMakeFiles/lab5.dir/src/animal.cpp.o"
+},
+{
+  "directory": "/home/zerosharp/projects/semestr3/lab5/build",
+  "command": "/usr/bin/g++  -I/home/zerosharp/projects/semestr3/lab5/include -g -o CMakeFiles/lab5.dir/src/domestic_animal.cpp.o -c /home/zerosharp/projects/semestr3/lab5/src/domestic_animal.cpp",
+  "file": "/home/zerosharp/projects/semestr3/lab5/src/domestic_animal.cpp",
+  "output": "CMakeFiles/lab5.dir/src/domestic_animal.cpp.o"
+}
+]
