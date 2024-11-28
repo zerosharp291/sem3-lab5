@@ -153,6 +153,54 @@ src/animal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/animal.cpp.s
 .PHONY : src/animal.cpp.s
 
+src/cat.o: src/cat.cpp.o
+.PHONY : src/cat.o
+
+# target to build an object file
+src/cat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/cat.cpp.o
+.PHONY : src/cat.cpp.o
+
+src/cat.i: src/cat.cpp.i
+.PHONY : src/cat.i
+
+# target to preprocess a source file
+src/cat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/cat.cpp.i
+.PHONY : src/cat.cpp.i
+
+src/cat.s: src/cat.cpp.s
+.PHONY : src/cat.s
+
+# target to generate assembly for a file
+src/cat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/cat.cpp.s
+.PHONY : src/cat.cpp.s
+
+src/dog.o: src/dog.cpp.o
+.PHONY : src/dog.o
+
+# target to build an object file
+src/dog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/dog.cpp.o
+.PHONY : src/dog.cpp.o
+
+src/dog.i: src/dog.cpp.i
+.PHONY : src/dog.i
+
+# target to preprocess a source file
+src/dog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/dog.cpp.i
+.PHONY : src/dog.cpp.i
+
+src/dog.s: src/dog.cpp.s
+.PHONY : src/dog.s
+
+# target to generate assembly for a file
+src/dog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/dog.cpp.s
+.PHONY : src/dog.cpp.s
+
 src/domestic_animal.o: src/domestic_animal.cpp.o
 .PHONY : src/domestic_animal.o
 
@@ -201,6 +249,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/wild_animal.o: src/wild_animal.cpp.o
+.PHONY : src/wild_animal.o
+
+# target to build an object file
+src/wild_animal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/wild_animal.cpp.o
+.PHONY : src/wild_animal.cpp.o
+
+src/wild_animal.i: src/wild_animal.cpp.i
+.PHONY : src/wild_animal.i
+
+# target to preprocess a source file
+src/wild_animal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/wild_animal.cpp.i
+.PHONY : src/wild_animal.cpp.i
+
+src/wild_animal.s: src/wild_animal.cpp.s
+.PHONY : src/wild_animal.s
+
+# target to generate assembly for a file
+src/wild_animal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/wild_animal.cpp.s
+.PHONY : src/wild_animal.cpp.s
+
+src/wolf.o: src/wolf.cpp.o
+.PHONY : src/wolf.o
+
+# target to build an object file
+src/wolf.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/wolf.cpp.o
+.PHONY : src/wolf.cpp.o
+
+src/wolf.i: src/wolf.cpp.i
+.PHONY : src/wolf.i
+
+# target to preprocess a source file
+src/wolf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/wolf.cpp.i
+.PHONY : src/wolf.cpp.i
+
+src/wolf.s: src/wolf.cpp.s
+.PHONY : src/wolf.s
+
+# target to generate assembly for a file
+src/wolf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/src/wolf.cpp.s
+.PHONY : src/wolf.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,12 +309,24 @@ help:
 	@echo "... src/animal.o"
 	@echo "... src/animal.i"
 	@echo "... src/animal.s"
+	@echo "... src/cat.o"
+	@echo "... src/cat.i"
+	@echo "... src/cat.s"
+	@echo "... src/dog.o"
+	@echo "... src/dog.i"
+	@echo "... src/dog.s"
 	@echo "... src/domestic_animal.o"
 	@echo "... src/domestic_animal.i"
 	@echo "... src/domestic_animal.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/wild_animal.o"
+	@echo "... src/wild_animal.i"
+	@echo "... src/wild_animal.s"
+	@echo "... src/wolf.o"
+	@echo "... src/wolf.i"
+	@echo "... src/wolf.s"
 .PHONY : help
 
 

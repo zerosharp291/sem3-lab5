@@ -111,11 +111,71 @@ CMakeFiles/lab5.dir/src/domestic_animal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab5.dir/src/domestic_animal.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zerosharp/projects/semestr3/lab5/src/domestic_animal.cpp -o CMakeFiles/lab5.dir/src/domestic_animal.cpp.s
 
+CMakeFiles/lab5.dir/src/wild_animal.cpp.o: CMakeFiles/lab5.dir/flags.make
+CMakeFiles/lab5.dir/src/wild_animal.cpp.o: /home/zerosharp/projects/semestr3/lab5/src/wild_animal.cpp
+CMakeFiles/lab5.dir/src/wild_animal.cpp.o: CMakeFiles/lab5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zerosharp/projects/semestr3/lab5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab5.dir/src/wild_animal.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab5.dir/src/wild_animal.cpp.o -MF CMakeFiles/lab5.dir/src/wild_animal.cpp.o.d -o CMakeFiles/lab5.dir/src/wild_animal.cpp.o -c /home/zerosharp/projects/semestr3/lab5/src/wild_animal.cpp
+
+CMakeFiles/lab5.dir/src/wild_animal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab5.dir/src/wild_animal.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zerosharp/projects/semestr3/lab5/src/wild_animal.cpp > CMakeFiles/lab5.dir/src/wild_animal.cpp.i
+
+CMakeFiles/lab5.dir/src/wild_animal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab5.dir/src/wild_animal.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zerosharp/projects/semestr3/lab5/src/wild_animal.cpp -o CMakeFiles/lab5.dir/src/wild_animal.cpp.s
+
+CMakeFiles/lab5.dir/src/cat.cpp.o: CMakeFiles/lab5.dir/flags.make
+CMakeFiles/lab5.dir/src/cat.cpp.o: /home/zerosharp/projects/semestr3/lab5/src/cat.cpp
+CMakeFiles/lab5.dir/src/cat.cpp.o: CMakeFiles/lab5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zerosharp/projects/semestr3/lab5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab5.dir/src/cat.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab5.dir/src/cat.cpp.o -MF CMakeFiles/lab5.dir/src/cat.cpp.o.d -o CMakeFiles/lab5.dir/src/cat.cpp.o -c /home/zerosharp/projects/semestr3/lab5/src/cat.cpp
+
+CMakeFiles/lab5.dir/src/cat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab5.dir/src/cat.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zerosharp/projects/semestr3/lab5/src/cat.cpp > CMakeFiles/lab5.dir/src/cat.cpp.i
+
+CMakeFiles/lab5.dir/src/cat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab5.dir/src/cat.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zerosharp/projects/semestr3/lab5/src/cat.cpp -o CMakeFiles/lab5.dir/src/cat.cpp.s
+
+CMakeFiles/lab5.dir/src/dog.cpp.o: CMakeFiles/lab5.dir/flags.make
+CMakeFiles/lab5.dir/src/dog.cpp.o: /home/zerosharp/projects/semestr3/lab5/src/dog.cpp
+CMakeFiles/lab5.dir/src/dog.cpp.o: CMakeFiles/lab5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zerosharp/projects/semestr3/lab5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab5.dir/src/dog.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab5.dir/src/dog.cpp.o -MF CMakeFiles/lab5.dir/src/dog.cpp.o.d -o CMakeFiles/lab5.dir/src/dog.cpp.o -c /home/zerosharp/projects/semestr3/lab5/src/dog.cpp
+
+CMakeFiles/lab5.dir/src/dog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab5.dir/src/dog.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zerosharp/projects/semestr3/lab5/src/dog.cpp > CMakeFiles/lab5.dir/src/dog.cpp.i
+
+CMakeFiles/lab5.dir/src/dog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab5.dir/src/dog.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zerosharp/projects/semestr3/lab5/src/dog.cpp -o CMakeFiles/lab5.dir/src/dog.cpp.s
+
+CMakeFiles/lab5.dir/src/wolf.cpp.o: CMakeFiles/lab5.dir/flags.make
+CMakeFiles/lab5.dir/src/wolf.cpp.o: /home/zerosharp/projects/semestr3/lab5/src/wolf.cpp
+CMakeFiles/lab5.dir/src/wolf.cpp.o: CMakeFiles/lab5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zerosharp/projects/semestr3/lab5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lab5.dir/src/wolf.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab5.dir/src/wolf.cpp.o -MF CMakeFiles/lab5.dir/src/wolf.cpp.o.d -o CMakeFiles/lab5.dir/src/wolf.cpp.o -c /home/zerosharp/projects/semestr3/lab5/src/wolf.cpp
+
+CMakeFiles/lab5.dir/src/wolf.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab5.dir/src/wolf.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zerosharp/projects/semestr3/lab5/src/wolf.cpp > CMakeFiles/lab5.dir/src/wolf.cpp.i
+
+CMakeFiles/lab5.dir/src/wolf.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab5.dir/src/wolf.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zerosharp/projects/semestr3/lab5/src/wolf.cpp -o CMakeFiles/lab5.dir/src/wolf.cpp.s
+
 # Object files for target lab5
 lab5_OBJECTS = \
 "CMakeFiles/lab5.dir/src/main.cpp.o" \
 "CMakeFiles/lab5.dir/src/animal.cpp.o" \
-"CMakeFiles/lab5.dir/src/domestic_animal.cpp.o"
+"CMakeFiles/lab5.dir/src/domestic_animal.cpp.o" \
+"CMakeFiles/lab5.dir/src/wild_animal.cpp.o" \
+"CMakeFiles/lab5.dir/src/cat.cpp.o" \
+"CMakeFiles/lab5.dir/src/dog.cpp.o" \
+"CMakeFiles/lab5.dir/src/wolf.cpp.o"
 
 # External object files for target lab5
 lab5_EXTERNAL_OBJECTS =
@@ -123,9 +183,13 @@ lab5_EXTERNAL_OBJECTS =
 lab5: CMakeFiles/lab5.dir/src/main.cpp.o
 lab5: CMakeFiles/lab5.dir/src/animal.cpp.o
 lab5: CMakeFiles/lab5.dir/src/domestic_animal.cpp.o
+lab5: CMakeFiles/lab5.dir/src/wild_animal.cpp.o
+lab5: CMakeFiles/lab5.dir/src/cat.cpp.o
+lab5: CMakeFiles/lab5.dir/src/dog.cpp.o
+lab5: CMakeFiles/lab5.dir/src/wolf.cpp.o
 lab5: CMakeFiles/lab5.dir/build.make
 lab5: CMakeFiles/lab5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zerosharp/projects/semestr3/lab5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable lab5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zerosharp/projects/semestr3/lab5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable lab5"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

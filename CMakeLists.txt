@@ -11,4 +11,8 @@ add_executable(
     src/main.cpp
     src/animal.cpp
     src/domestic_animal.cpp
+    src/wild_animal.cpp
+    src/cat.cpp
+    src/dog.cpp
+    src/wolf.cpp
 )

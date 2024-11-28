@@ -1,15 +1,12 @@
 #include <string>
 #include "../include/animal.h"
 
-Animal::Animal(string _species, string _name, int _age, string _color)
+Animal::Animal(string _species)
 {
     species = _species;
-    name = _name;
-    age = _age;
-    color = _color;
 }
 
 void Animal::voice()
 {
-    cout << "Animal makes a sound" << endl;
+    cout << "Animal " << species << " makes a sound" << endl;
 }

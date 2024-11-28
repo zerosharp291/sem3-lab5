@@ -16,5 +16,29 @@
   "command": "/usr/bin/g++  -I/home/zerosharp/projects/semestr3/lab5/include -g -o CMakeFiles/lab5.dir/src/domestic_animal.cpp.o -c /home/zerosharp/projects/semestr3/lab5/src/domestic_animal.cpp",
   "file": "/home/zerosharp/projects/semestr3/lab5/src/domestic_animal.cpp",
   "output": "CMakeFiles/lab5.dir/src/domestic_animal.cpp.o"
+},
+{
+  "directory": "/home/zerosharp/projects/semestr3/lab5/build",
+  "command": "/usr/bin/g++  -I/home/zerosharp/projects/semestr3/lab5/include -g -o CMakeFiles/lab5.dir/src/wild_animal.cpp.o -c /home/zerosharp/projects/semestr3/lab5/src/wild_animal.cpp",
+  "file": "/home/zerosharp/projects/semestr3/lab5/src/wild_animal.cpp",
+  "output": "CMakeFiles/lab5.dir/src/wild_animal.cpp.o"
+},
+{
+  "directory": "/home/zerosharp/projects/semestr3/lab5/build",
+  "command": "/usr/bin/g++  -I/home/zerosharp/projects/semestr3/lab5/include -g -o CMakeFiles/lab5.dir/src/cat.cpp.o -c /home/zerosharp/projects/semestr3/lab5/src/cat.cpp",
+  "file": "/home/zerosharp/projects/semestr3/lab5/src/cat.cpp",
+  "output": "CMakeFiles/lab5.dir/src/cat.cpp.o"
+},
+{
+  "directory": "/home/zerosharp/projects/semestr3/lab5/build",
+  "command": "/usr/bin/g++  -I/home/zerosharp/projects/semestr3/lab5/include -g -o CMakeFiles/lab5.dir/src/dog.cpp.o -c /home/zerosharp/projects/semestr3/lab5/src/dog.cpp",
+  "file": "/home/zerosharp/projects/semestr3/lab5/src/dog.cpp",
+  "output": "CMakeFiles/lab5.dir/src/dog.cpp.o"
+},
+{
+  "directory": "/home/zerosharp/projects/semestr3/lab5/build",
+  "command": "/usr/bin/g++  -I/home/zerosharp/projects/semestr3/lab5/include -g -o CMakeFiles/lab5.dir/src/wolf.cpp.o -c /home/zerosharp/projects/semestr3/lab5/src/wolf.cpp",
+  "file": "/home/zerosharp/projects/semestr3/lab5/src/wolf.cpp",
+  "output": "CMakeFiles/lab5.dir/src/wolf.cpp.o"
 }
 ]

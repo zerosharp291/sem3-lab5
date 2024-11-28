@@ -1,17 +1,16 @@
-#ifndef DOMESTIC_ANIMAL_H
-#define DOMESTIC_ANIMAL_H
+#pragma once
 
 #include "animal.h"
 #include <string>
 
 class DomesticAnimal : public Animal
 {
-private:
+protected:
     string owner;
     string breed;
 
 public:
-    DomesticAnimal(string _species, string _name, int _age, string _color, string _owner, string _breed);
-};
+    DomesticAnimal(string _species, string _owner, string _breed);
 
-#endif
+    void voice();
+};

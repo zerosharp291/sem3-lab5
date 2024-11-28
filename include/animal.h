@@ -1,5 +1,4 @@
-#ifndef ANIMAL_H
-#define ANIMAL_H
+#pragma once
 
 #include <string>
 #include <iostream>
@@ -7,16 +6,11 @@ using namespace std;
 
 class Animal
 {
-private:
+protected:
     string species;
-    string name;
-    int age;
-    string color;
 
 public:
-    Animal(string _species, string _name, int _age, string _color);
+    Animal(string _species);
 
-    static void voice();
+    void voice();
 };
-
-#endif
